@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px; }
+
+header {
+  background: url(../imagenesRestaurante/restaurante.jpg);
+  background-size: cover;
+  background-position-y: 25%;
+  background-repeat: no-repeat; }
+
+header .contenedor_logo_menu {
+    padding: 25px 0; }
+
+header .contenedor_logo_menu .logo a {
+    display: block; }
+
+header .contenedor_logo_menu .logo a img {
+    vertical-align: top; }
+header .textos {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  position: right;
+  line-height: 50px; }
+
+/*# sourceMappingURL=estilos.css.map */
