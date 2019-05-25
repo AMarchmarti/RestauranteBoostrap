@@ -33,14 +33,43 @@ header {
         list-style: 25px;
         margin-bottom: 60px; }
 
-main .caracteristicas {
+.main .caracteristicas {
   padding: 70px 0; }
-  main .caracteristicas .titulo {
+  .main .caracteristicas .contenedor_caracteristicas {
+    background-color: rgba(242, 231, 231, 0.62); }
+    .main .caracteristicas .contenedor_caracteristicas .titulo {
+      text-align: center;
+      font-family: "Open Sans", Arial, Sans-serif;
+      font-weight: 300;
+      font-size: 32px;
+      color: black;
+      margin-bottom: 70px; }
+    .main .caracteristicas .contenedor_caracteristicas .caracteristica {
+      text-align: center; }
+      .main .caracteristicas .contenedor_caracteristicas .caracteristica .icono {
+        vertical-align: top;
+        margin-bottom: 30px; }
+      .main .caracteristicas .contenedor_caracteristicas .caracteristica .primera_linia {
+        font-weight: 700;
+        margin-bottom: 30px;
+        font-size: 20px; }
+      .main .caracteristicas .contenedor_caracteristicas .caracteristica .segunda_linia {
+        margin-bottom: 30px;
+        line-height: 28px; }
+.main .galeria .contenedor_galeria {
+  background-color: rgba(242, 231, 231, 0.62); }
+  .main .galeria .contenedor_galeria .titulo {
     text-align: center;
     font-family: "Open Sans", Arial, Sans-serif;
     font-weight: 300;
     font-size: 32px;
     color: black;
     margin-bottom: 70px; }
+  .main .galeria .contenedor_galeria .tarjetas {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    padding: 50px 0;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
 
 /*# sourceMappingURL=estilos.css.map */
