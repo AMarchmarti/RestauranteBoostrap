@@ -5,6 +5,8 @@
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px; }
+  body .row {
+    margin: 0px; }
 
 header {
   background: url(../imagenesRestaurante/restaurante.jpg);
@@ -85,7 +87,11 @@ header {
       background: #1AC3CF;
       color: white; }
 .main .reviews {
-  padding: 70px; }
+  padding: 70px 0px; }
+  .main .reviews .contenedor_reviews {
+    background-color: rgba(242, 231, 231, 0.62);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
   .main .reviews .titulo {
     text-align: center;
     font-family: "Open Sans", Arial, Sans-serif;
@@ -160,5 +166,33 @@ footer .social {
       background: #E3695A; }
     footer .social a.instagram {
       background: #405DE6; }
+
+@media screen and (max-width: 992px) {
+  header .contenedor_logo_menu .logo {
+    margin-bottom: 20px;
+    text-align: center; }
+  header .contenedor_logo_menu .textos {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 16px; }
+    header .contenedor_logo_menu .textos .primera_linia {
+      font-size: 1.5em; }
+    header .contenedor_logo_menu .textos .segunda_linia {
+      font-size: 1.3em; }
+
+  footer .direccion {
+    text-align: center; }
+    footer .direccion .logo img {
+      margin-top: 20px; } }
+@media screen and (max-width: 768px) {
+  .main .caracteristicas .caracteristica {
+    margin-bottom: 20px; }
+  .main .galeria .tarjetas {
+    margin-bottom: 20px; }
+
+  footer .direccion {
+    text-align: center; }
+    footer .direccion .logo img {
+      margin-top: 20px; } }
 
 /*# sourceMappingURL=estilos.css.map */
