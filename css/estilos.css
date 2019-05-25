@@ -9,21 +9,38 @@ body {
 header {
   background: url(../imagenesRestaurante/restaurante.jpg);
   background-size: cover;
-  background-position-y: 25%;
+  background-position-y: 10%;
   background-repeat: no-repeat; }
-
-header .contenedor_logo_menu {
+  header .contenedor_logo_menu {
     padding: 25px 0; }
+    header .contenedor_logo_menu .logo a {
+      display: block; }
+      header .contenedor_logo_menu .logo a img {
+        vertical-align: top; }
+    header .contenedor_logo_menu .textos {
+      color: white;
+      text-align: center; }
+      header .contenedor_logo_menu .textos .primera_linia,
+      header .contenedor_logo_menu .textos .segunda_linia {
+        font-family: "Open Sans", Arial, Sans-serif;
+        font-weight: 300; }
+      header .contenedor_logo_menu .textos .primera_linia {
+        font-size: 35px;
+        list-style: 35px;
+        margin-bottom: 30px; }
+      header .contenedor_logo_menu .textos .segunda_linia {
+        font-size: 25px;
+        list-style: 25px;
+        margin-bottom: 60px; }
 
-header .contenedor_logo_menu .logo a {
-    display: block; }
-
-header .contenedor_logo_menu .logo a img {
-    vertical-align: top; }
-header .textos {
-  background-color: rgba(255, 255, 255, 0.5);
-  color: black;
-  position: right;
-  line-height: 50px; }
+main .caracteristicas {
+  padding: 70px 0; }
+  main .caracteristicas .titulo {
+    text-align: center;
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    color: black;
+    margin-bottom: 70px; }
 
 /*# sourceMappingURL=estilos.css.map */
