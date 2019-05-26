@@ -277,6 +277,12 @@ footer .social {
     margin-bottom: 20px; }
   .main .galeria .tarjetas {
     margin-bottom: 20px; }
+  .main .seccionGaleria .contenedor_local .carusel_local .carousel-inner .item img,
+  .main .seccionGaleria .contenedor_local .carusel_comida .carousel-inner .item img,
+  .main .seccionGaleria .contenedor_comida .carusel_local .carousel-inner .item img,
+  .main .seccionGaleria .contenedor_comida .carusel_comida .carousel-inner .item img {
+    width: 1200px;
+    height: 400px; }
 
   footer .direccion {
     text-align: center; }
