@@ -183,6 +183,11 @@ header {
     .main .reviews .cliente.derecha .review {
       float: right;
       text-align: right; }
+.main .seccion_local {
+  padding: 70px 0; }
+  .main .seccion_local .contenedor_local .carusel_local .carousel-inner .item img {
+    width: 1200px;
+    height: 600px; }
 
 footer .direccion {
   background: #3c4045;
