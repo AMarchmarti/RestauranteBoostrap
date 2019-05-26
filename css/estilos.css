@@ -41,12 +41,55 @@ header {
     background-repeat: no-repeat;
     background-position: center 0;
     padding: 70px 0; }
-    header #modalMenu .menu .cabecera .titulo {
+    header #modalMenu .menu .cabecera {
+      border-bottom: 2px solid black; }
+      header #modalMenu .menu .cabecera .titulo {
+        text-align: center;
+        font-family: "Open Sans", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        color: #000; }
+    header #modalMenu .menu .cuerpo .plan {
       text-align: center;
       font-family: "Open Sans", Arial, sans-serif;
-      font-weight: 400;
-      font-size: 32px;
-      color: #000; }
+      padding: 50px 0;
+      margin-bottom: 20px;
+      background: #fff;
+      -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+      box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
+      header #modalMenu .menu .cuerpo .plan .nombre {
+        font-size: 32px;
+        line-height: 32px;
+        font-weight: 300;
+        margin-bottom: 30px; }
+      header #modalMenu .menu .cuerpo .plan .platos {
+        list-style: none;
+        padding: 0 20px;
+        margin-bottom: 50px; }
+        header #modalMenu .menu .cuerpo .plan .platos li {
+          font-size: 18px;
+          padding: 15px 0;
+          border-bottom: 1px solid #dedede; }
+      header #modalMenu .menu .cuerpo .plan.amarillo .nombre,
+      header #modalMenu .menu .cuerpo .plan.amarillo .platos {
+        color: #F99A1F; }
+      header #modalMenu .menu .cuerpo .plan.verde .nombre,
+      header #modalMenu .menu .cuerpo .plan.verde .platos {
+        color: #86b773; }
+      header #modalMenu .menu .cuerpo .plan.rojo .nombre,
+      header #modalMenu .menu .cuerpo .plan.rojo .platos {
+        color: #E82802; }
+      header #modalMenu .menu .cuerpo .plan.rosado .nombre,
+      header #modalMenu .menu .cuerpo .plan.rosado .platos {
+        color: #FAB5A7; }
+    header #modalMenu .menu .final {
+      border-top: 2px solid black; }
+      header #modalMenu .menu .final .Saludos {
+        text-align: center;
+        font-family: "Open Sans", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 22px;
+        color: #000; }
 
 .main .caracteristicas {
   padding: 70px 0; }
