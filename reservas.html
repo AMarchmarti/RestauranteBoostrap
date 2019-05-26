@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600i,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/estilos.css">
-        <link href="css/mdb.min.css" rel="stylesheet">
+        <link href="css/jquery-ui.css" rel="stylesheet">
+  
 
     </head>
     <body>
@@ -123,9 +124,71 @@
         </header>
 
         <section class="main">
-            <div class="container">
-                
-              </div>  
+            <section class="container contenedor_reservas">
+                <div class="container contenedor">
+                    <div class="row">
+                        <div class="col-md-12 intro" >
+                            <h3 class="titulo">Reserva</h3>
+                            <p class="contenido">Aqui puedes reservar una mesa en nuestro magnifíco bar/restaurante. Además también puedes resrvar nuestro maravilloso privado, 
+                                ya sea para juegos de mesa/rol, para poder ver la final de algún torneo o incluso para estudiar, todo es possible!
+                            </p>
+                            <h4 class="subtitulo">No seas Jon Snow, ¡Tú si que sabes!</h4>
+                        </div>
+                    </div>
+
+                    <form id="contact-form" class="formulario" action="" role="form">
+
+                        <div class="messages"></div>
+                    
+                        <div class="controls">
+                    
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_name" type="text" name="nombre" class="form-control" placeholder="Por favor inserte su nombre" required="required" data-error="campo requerido">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_lastname" type="text" name="apellid" class="form-control" placeholder="Por favor inserte su apellido" required="required" data-error="campo requerido">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Por favor inserte su email" required="required" data-error="Inserte un email existenete.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                        <div class="input-group">
+                                            <input  type="tel" class="form-control" placeholder="Porfavor inserte un numero de contacto" required="required">
+                                            <span class="input-group-addon">Tel</span>
+                                        </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="md-form">
+                                        <div class="input-append date form_datetime">
+                                            <input size="16" id="datepicker" type="text" value="" readonly>
+                                            <span class="add-on"><i class="icon-th"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-success btn-send" value="Reserva ya!">
+                            </div>
+                            </div>
+                            
+                        </div>
+                       
+                    </form>
+                </div>  
+            </section>
         </section>
 
 
@@ -159,11 +222,21 @@
             </div>
         </footer>
 
+
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <script src="js/jquery-ui.js"></script>
+
+        <script type="text/javascript">
+            $( "#datepicker" ).datepicker({inline: true,
+                format: "dd MM yyyy - hh:ii"});
+        </script>
+
         <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
         <!-- Bootstrap JavaScript -->
         <script src="js/bootstrap.min.js"></script>
+
 
         <script type="text/javascript" src="js/popper.min.js"></script>
 
