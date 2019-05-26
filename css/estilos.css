@@ -35,6 +35,18 @@ header {
         font-size: 25px;
         list-style: 25px;
         margin-bottom: 60px; }
+  header #modalMenu .menu {
+    background: url(../imagenesRestaurante/textura.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    padding: 70px 0; }
+    header #modalMenu .menu .cabecera .titulo {
+      text-align: center;
+      font-family: "Open Sans", Arial, sans-serif;
+      font-weight: 400;
+      font-size: 32px;
+      color: #000; }
 
 .main .caracteristicas {
   padding: 70px 0; }
