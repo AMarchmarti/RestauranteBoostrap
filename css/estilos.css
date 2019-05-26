@@ -242,6 +242,13 @@ header {
         font-size: 22px; }
     .main .contenedor_reservas .contenedor .formulario {
       padding: 50px 0; }
+      .main .contenedor_reservas .contenedor .formulario .controls label {
+        font-family: "Open Sans", Arial, Sans-serif;
+        font-weight: 400; }
+      .main .contenedor_reservas .contenedor .formulario .controls .boton {
+        margin-top: 30px;
+        text-align: center;
+        float: none; }
 
 footer .direccion {
   background: #3c4045;
@@ -280,9 +287,6 @@ footer .social {
       background: #E3695A; }
     footer .social a.instagram {
       background: #405DE6; }
-
-
-
 
 @media screen and (max-width: 992px) {
   header .contenedor_logo_menu .logo {
