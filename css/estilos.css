@@ -183,11 +183,39 @@ header {
     .main .reviews .cliente.derecha .review {
       float: right;
       text-align: right; }
-.main .seccion_local {
+.main .seccionGaleria {
   padding: 70px 0; }
-  .main .seccion_local .contenedor_local .carusel_local .carousel-inner .item img {
-    width: 1200px;
-    height: 600px; }
+  .main .seccionGaleria .contenedor_local,
+  .main .seccionGaleria .contenedor_comida {
+    background-color: rgba(242, 231, 231, 0.62);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
+    .main .seccionGaleria .contenedor_local .titulo,
+    .main .seccionGaleria .contenedor_comida .titulo {
+      text-align: center;
+      font-family: "Open Sans", Arial, Sans-serif;
+      font-weight: 400;
+      font-size: 32px;
+      color: black;
+      margin-bottom: 70px; }
+    .main .seccionGaleria .contenedor_local .parrafo,
+    .main .seccionGaleria .contenedor_comida .parrafo {
+      text-align: center;
+      font-family: "Open Sans", Arial, Sans-serif;
+      font-weight: 300;
+      margin-bottom: 30px;
+      font-size: 20px; }
+    .main .seccionGaleria .contenedor_local .carusel_local .carousel-inner,
+    .main .seccionGaleria .contenedor_local .carusel_comida .carousel-inner,
+    .main .seccionGaleria .contenedor_comida .carusel_local .carousel-inner,
+    .main .seccionGaleria .contenedor_comida .carusel_comida .carousel-inner {
+      margin-bottom: 20px; }
+      .main .seccionGaleria .contenedor_local .carusel_local .carousel-inner .item img,
+      .main .seccionGaleria .contenedor_local .carusel_comida .carousel-inner .item img,
+      .main .seccionGaleria .contenedor_comida .carusel_local .carousel-inner .item img,
+      .main .seccionGaleria .contenedor_comida .carusel_comida .carousel-inner .item img {
+        width: 1200px;
+        height: 600px; }
 
 footer .direccion {
   background: #3c4045;
