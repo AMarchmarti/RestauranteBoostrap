@@ -22,7 +22,7 @@
                 
                 <div class="row contenedor_logo_menu">
                     <div class="logo col-xs-12 col-md-6">
-                        <a href="#"><img src="imagenesRestaurante/logo.png" alt="logo_restaurante"></a>
+                        <a href="index.html"><img src="imagenesRestaurante/logo.png" alt="logo_restaurante"></a>
                     </div>
                     <div class="textos col-xs-12 col-md-6">
                         <h2 class="primera_linia">Titulo</h2>
@@ -38,7 +38,7 @@
                         <div class="col-md-2 col-sm-2 brand_nav">
                             <!--Header del menu-->
                             <div class="navbar-header naveagdor_header">
-                                <a href="#" class="navbar-brand">RAGNAROK</a>
+                                <a href="index.html" class="navbar-brand">RAGNAROK</a>
                                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
                                     <span class="sr-only">Navegacion</span>
                                     <span class="icon-bar"></span>
@@ -56,20 +56,20 @@
                                         <a href="#" class="dropdwn-toggle" data-toggle="dropdown">Nostros<span class="caret"></span></a>
                                         <ul class="dropdown-menu">
                                             <li><a href="#">Nuestro Equipo</a></li>
-                                            <li><a href="#">Galería</a></li>
+                                            <li><a href="galeria.html">Galería</a></li>
                                             <li><a href="#">Carta</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#" data-toggle="modal" data-target="#modalMenu">Menu del Dia</a></li>
                                     <li><a href="#" data-toggle="modal" data-target="#tuopinionmodal">Tú Opinion</a></li>
-                                    <li><a href="#">Reservas</a></li>
+                                    <li><a href="reservas.html">Reservas</a></li>
                                 </ul>
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-5 form_navegacion">
                             <!--Formulario de Búsqueda-->
-                            <form action="" class="navbar-form nav">
+                            <form class="navbar-form nav">
                                 <div class="form-group">
                                     <input type="text" placeholder="Buscar" class="form-control">
                                     <button class="btn btn-default" type="submit">Buscar</button>
@@ -87,7 +87,7 @@
             
         <!--Modals que saldran del navegador-->   
         <!--Modal Tu Opinión--> 
-            <div class="modal fade" id="tuopinionmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal fade" id="tuopinionmodal" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header text-center">
@@ -104,12 +104,12 @@
 
                             <div class="md-form mb-5">
                                 <i class="fas fa-envelope prefix grey-text"></i>
-                                <input type="email"class="form-control validate" placeholder="Email">
+                                <input type="email" class="form-control validate" placeholder="Email">
                             </div>
 
                             <div class="md-form">
                                 <i class="fas fa-comments prefix grey-text"></i>
-                                <textarea type="text" class="md-textarea form-control" rows="4" placeholder="Su opinión sobre el restaurante"></textarea>
+                                <textarea class="md-textarea form-control" rows="4" placeholder="Su opinión sobre el restaurante"></textarea>
                             </div>
                             
                             <div class="row plato">
@@ -137,7 +137,7 @@
 
             <!--Modal Menu del dia-->
             <!-- Modal: modalCart -->
-            <div class="modal fade" id="modalMenu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="modalMenu" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content menu">
                         <!--Header del Modal-->
@@ -217,19 +217,19 @@
 
                     <div class="row">
                         <div class="col-sm-4 caracteristica">
-                            <img class="icono" src="imagenesRestaurante/icono bar.png" width="100" alt="icono_menu">
+                            <img class="icono" src="imagenesRestaurante/iconoBar.png" width="100" alt="icono_menu">
                             <h4 class="primera_linia">intro</h4>
                             <p class="segunda_linia">breve explicacion</p>
                         </div>
 
                         <div class="col-sm-4 caracteristica">
-                            <img class="icono" src="imagenesRestaurante/icono casa.png" width="100" alt="icono_menu">
+                            <img class="icono" src="imagenesRestaurante/iconoCasa.png" width="100" alt="icono_menu">
                             <h4 class="primera_linia">intro</h4>
                             <p class="segunda_linia">breve explicacion</p>
                         </div>
 
                         <div class="col-sm-4 caracteristica">
-                            <img class="icono" src="imagenesRestaurante/icono calendario.png" alt="icono_menu">
+                            <img class="icono" src="imagenesRestaurante/iconoCalendario.png" alt="icono_menu">
                             <h4 class="primera_linia">intro</h4>
                             <p class="segunda_linia">breve explicacion</p>
                         </div>
@@ -261,7 +261,7 @@
 
                         <div class="col-sm-6 col-md-4">
                             <div class="thumbnail tarjetas">
-                                <img class="imagenes_galeria" src="imagenesRestaurante/comida vegetariana.jpg" width="540" alt="vegetariana">
+                                <img class="imagenes_galeria" src="imagenesRestaurante/comidaVegetariana.jpg" width="540" alt="vegetariana">
                                 <div class="caption">
                                     <h3>Thumbnail label</h3>
                                     <p>...</p>
@@ -314,6 +314,7 @@
                             </div>
                         </div>
                     </div>
+                </div>  
             </section>
 
             <section class="reviews">
@@ -401,7 +402,6 @@
                             </div>
                         </div>
                     </div>
-                </section>
             </section>
         </section>
 
@@ -437,12 +437,12 @@
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+        <script src="js/jquery-3.4.0.min.js"></script>
         <!-- Bootstrap JavaScript -->
         <script src="js/bootstrap.min.js"></script>
 
-        <script type="text/javascript" src="js/popper.min.js"></script>
+        <script src="js/popper.min.js"></script>
 
-        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <script src="js/mdb.min.js"></script>
     </body>
 </html>
