@@ -10,7 +10,7 @@ body {
 
 header {
   background: url(../imagenesRestaurante/restaurante.jpg);
-  background-size: cover;
+  background-size: cover !important;
   background-position-y: 10%;
   background-repeat: no-repeat; }
   header .contenedor_logo_menu {
@@ -43,6 +43,10 @@ header {
     padding: 70px 0; }
     header #modalMenu .menu .cabecera {
       border-bottom: 2px solid black; }
+      header #modalMenu .menu .close{
+        font-size: 22px;
+        color: #000;
+      }
       header #modalMenu .menu .cabecera .titulo {
         text-align: center;
         font-family: "Open Sans", Arial, sans-serif;
@@ -58,7 +62,7 @@ header {
       -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
       box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35); }
       header #modalMenu .menu .cuerpo .plan .nombre {
-        font-size: 32px;
+        font-size: 28px;
         line-height: 32px;
         font-weight: 300;
         margin-bottom: 30px; }
@@ -83,9 +87,10 @@ header {
       header #modalMenu .menu .cuerpo .plan.rosado .platos {
         color: #FAB5A7; }
     header #modalMenu .menu .final {
-      border-top: 2px solid black; }
+      border-top: 2px solid black; 
+      text-align: center;}
       header #modalMenu .menu .final .Saludos {
-        text-align: center;
+        
         font-family: "Open Sans", Arial, sans-serif;
         font-weight: 400;
         font-size: 22px;
@@ -333,6 +338,7 @@ footer .social {
     text-align: center; }
     footer .direccion .logo img {
       margin-top: 20px; } }
+
 @media screen and (max-width: 768px) {
   header{
     background-size: cover !important;
@@ -345,12 +351,17 @@ footer .social {
   .main .seccionGaleria .contenedor_local .carusel_comida .carousel-inner .item img,
   .main .seccionGaleria .contenedor_comida .carusel_local .carousel-inner .item img,
   .main .seccionGaleria .contenedor_comida .carusel_comida .carousel-inner .item img {
-    width: 1200px;
-    height: 400px; }
+    width: 900px;
+    height: 300px; }
 
+  .main .mejores_elecciones .elecciones {
+    text-align: center;
+  }
+  
   footer .direccion {
     text-align: center; }
     footer .direccion .logo img {
       margin-top: 20px; } }
+
 
 /*# sourceMappingURL=estilos.css.map */

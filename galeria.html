@@ -17,7 +17,7 @@
     </head>
     <body>
         <header>
-            
+        
             <div class="container">
                 
                 <div class="row contenedor_logo_menu">
@@ -84,113 +84,125 @@
 
                 </nav> 
             </div>   
-            
-        <!--Modals que saldran del navegador-->   
-        <!--Modal Tu Opinión--> 
-            <div class="modal fade" id="tuopinionmodal" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header text-center">
-                            <h4 class="modal-title w-100 font-weight-bold">Queremos saber tu opinión</h4>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body mx-3">
-                            <div class="md-form mb-5">
-                                <i class="fas fa-user prefix grey-text"></i>
-                                <input type="text" id="form34" class="form-control validate">
-                                <label data-error="wrong" data-success="right" for="form34">Su nombre</label>
+                
+            <!--Modals que saldran del navegador-->   
+            <!--Modal Tu Opinión--> 
+                <div class="modal fade" id="tuopinionmodal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header text-center">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title w-100 font-weight-bold">Queremos saber tu opinión</h4>
                             </div>
-
-                            <div class="md-form mb-5">
-                                <i class="fas fa-envelope prefix grey-text"></i>
-                                <input type="email" id="form29" class="form-control validate">
-                                <label data-error="wrong" data-success="right" for="form29">Su Email</label>
+                            <div class="modal-body mx-3">
+                                <div class="md-form mb-5">
+                                    <i class="fas fa-user prefix grey-text"></i>
+                                    <input type="text" class="form-control validate" placeholder="Nombre">
+                                </div>
+    
+                                <div class="md-form mb-5">
+                                    <i class="fas fa-envelope prefix grey-text"></i>
+                                    <input type="email" class="form-control validate" placeholder="Email">
+                                </div>
+    
+                                <div class="md-form">
+                                    <i class="fas fa-comments prefix grey-text"></i>
+                                    <textarea class="md-textarea form-control" rows="4" placeholder="Su opinión sobre el restaurante"></textarea>
+                                </div>
+                                
+                                <div class="row plato">
+                                    <div class="col-md-4">
+                                        <input type="text" class="form-control" placeholder="Mejor Plato">
+                                    </div>
+                                    
+                                    <div class="col-md-4">
+                                        <input type="number" class="form-control" placeholder="Presentación">
+                                    </div>
+    
+                                    <div class="col-md-4">
+                                        <input type="number" class="form-control" placeholder="Sabor">
+                                    </div>
+                                </div>
+    
                             </div>
-
-                            <div class="md-form">
-                                <i class="fas fa-comments prefix grey-text"></i>
-                                <textarea id="form8" class="md-textarea form-control" rows="4"></textarea>
-                                <label data-error="wrong" data-success="right" for="form8">Su Opinión</label>
+                            <div class="modal-footer d-flex justify-content-center">
+                                <button class="btn btn-unique text-center" data-dismiss="modal" aria-label="Close" >Enviar</button>
                             </div>
-
-                        </div>
-                        <div class="modal-footer d-flex justify-content-center">
-                            <button class="btn btn-unique text-center" data-dismiss="modal" aria-label="Close" >Enviar</button>
                         </div>
                     </div>
                 </div>
-            </div>
-
-
-            <!--Modal Menu del dia-->
-            <!-- Modal: modalCart -->
-            <div class="modal fade" id="modalMenu" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content menu">
-                        <!--Header del Modal-->
-                        <div class="modal-header cabecera">
-                            <h3 class="titulo">Menu del dia</h3>
-                        </div>
-
-                        <!--Body del modal-->
-                        <div class="modal-body cuerpo">
-                            <div class="row">
-                                <div class="precio col-xs-6">
-                                    <div class="plan amarillo">
-                                        <p class="nombre">Entrantes</p>
-                                        <ul class="platos">
-                                            <li>Plato #1</li>
-                                            <li>Plato #1</li>
-                                            <li>Plato #1</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            
-                                <div class="precio col-xs-6">
-                                    <div class="plan verde">
-                                        <p class="nombre">Primer Plato</p>
-                                        <ul class="platos">
-                                            <li>Plato #1</li>
-                                            <li>Plato #1</li>
-                                            <li>Plato #1</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            
-                                <div class="precio col-xs-6">
-                                    <div class="plan rojo">
-                                        <p class="nombre">Segundo Plato</p>
-                                        <ul class="platos">
-                                            <li>Plato #1</li>
-                                            <li>Plato #1</li>
-                                            <li>Plato #1</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            
-                                <div class="precio col-xs-6">
-                                    <div class="plan rosado">
-                                        <p class="nombre">Postres</p>
-                                        <ul class="platos">
-                                            <li>Plato #1</li>
-                                            <li>Plato #1</li>
-                                            <li>Plato #1</li>
-                                        </ul>
-                                    </div>
-                                </div>
+    
+    
+                <!--Modal Menu del dia-->
+                <!-- Modal: modalCart -->
+                <div class="modal fade" id="modalMenu" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content menu">
+                            <!--Header del Modal-->
+                            <div class="modal-header cabecera">
+                                <h3 class="titulo">Menu del dia</h3>
                             </div>
-                   
-                        </div>
-                        <!--Footer del modal-->
-                        <div class="modal-footer final">
-                            <h4 class="Saludos">Esperamos que les guste el menu del dia. Buen provecho <i class="fas fa-heart"></i></h4>
+    
+                            <!--Body del modal-->
+                            <div class="modal-body cuerpo">
+                                <div class="row">
+                                    <div class="precio col-xs-6">
+                                        <div class="plan amarillo">
+                                            <p class="nombre">Entrantes</p>
+                                            <ul class="platos">
+                                                <li>Plato #1</li>
+                                                <li>Plato #1</li>
+                                                <li>Plato #1</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="precio col-xs-6">
+                                        <div class="plan verde">
+                                            <p class="nombre">Primer Plato</p>
+                                            <ul class="platos">
+                                                <li>Plato #1</li>
+                                                <li>Plato #1</li>
+                                                <li>Plato #1</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="precio col-xs-6">
+                                        <div class="plan rojo">
+                                            <p class="nombre">Segundo Plato</p>
+                                            <ul class="platos">
+                                                <li>Plato #1</li>
+                                                <li>Plato #1</li>
+                                                <li>Plato #1</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="precio col-xs-6">
+                                        <div class="plan rosado">
+                                            <p class="nombre">Postres</p>
+                                            <ul class="platos">
+                                                <li>Plato #1</li>
+                                                <li>Plato #1</li>
+                                                <li>Plato #1</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                            <!--Footer del modal-->
+                            <div class="modal-footer final">
+                                <h4 class="Saludos">Esperamos que les guste el menu del dia. Buen provecho <i class="fas fa-heart"></i></h4>
+                                <button class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
+    
         </header>
 
         <section class="main">
