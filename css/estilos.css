@@ -141,6 +141,9 @@ header {
     .main .galeria .contenedor_galeria .tarjetas img {
       width: 540px;
       height: 200px; }
+      .main .galeria .contenedor_galeria .caption p{
+        text-align: justify
+      }
   .main .galeria .contenedor_galeria .caption .boton {
     border: 2px solid #1AC3CF; }
     .main .galeria .contenedor_galeria .caption .boton:hover {
@@ -279,6 +282,9 @@ header {
         font-weight: 400;
         text-align: center;
         list-style: none; }
+        .main .mejores_elecciones .elecciones .table .nombre{
+          text-align: justify;
+        } 
 
 footer .direccion {
   background: #3c4045;
